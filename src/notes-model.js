@@ -2,10 +2,10 @@ class Note {
   #message;
 
   constructor(message) {
-    this.#message = message
+    this.#note = message
   }
 
-  showMessage() {
+  getNote() {
     return this.#message;
   }
 }
