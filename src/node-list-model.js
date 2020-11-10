@@ -11,8 +11,8 @@ class Notes {
 
   }
 
-  showNote(text) {
-    let note = new Note(text);
+  addNote(text) {
+    let note = new SingleNote(text);
     this.notes.push(note);
   }
 }
