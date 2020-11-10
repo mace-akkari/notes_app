@@ -1,11 +1,11 @@
 class SingleNote {
-  #message;
+  #note;
 
   constructor(message) {
     this.#note = message
   }
 
   showNote() {
-    return this.#message;
+    return this.#note;
   }
 }
