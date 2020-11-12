@@ -1,0 +1,35 @@
+body {
+  padding-left: 20px;
+  padding-top: 2px;
+}
+
+.preview {
+  width: 400px;
+  height: 200px;
+  margin-bottom: 30px;
+  border: solid black;
+  overflow-y: scroll;
+}
+
+
+#app {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.sumbit-btn {
+  outline: none;
+  width: 100px;
+  height: 25px;
+  border-radius: 20%;
+  border: none;
+}
+
+a {
+  color: black;
+}
+
+ul {
+  font-size: 20px;
+  list-style-type: none;
+}
